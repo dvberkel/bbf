@@ -2,7 +2,7 @@
 #+author: Daan van Berkel
 
 The [[http://en.wikipedia.org/wiki/Bailey%25E2%2580%2593Borwein%25E2%2580%2593Plouffe_formula][Bailey-Borwein-Plouffe algorithm]] is an algorithm to calculate a
-single digits of π, without calculating any of the preceding
+single digit of π, without calculating any of the preceding
 digits. It is an example of a [[http://en.wikipedia.org/wiki/Spigot_algorithm][spigot algorithm]]. It is based on the
 following formula for π
 

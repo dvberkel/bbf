@@ -9,3 +9,6 @@ following formula for π
 \[
 \pi = \sum_{k=0}^{\infty}\frac{1}{16^{k}}\left(\frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6}\right)
 \]
+
+Finding this relation for π is an interesting application of the [[http://en.wikipedia.org/wiki/Integer_relation_algorithm][PSLQ
+algorithm]], an algorithm for finding integer relations between real numbers.

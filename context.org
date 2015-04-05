@@ -12,3 +12,7 @@ following formula for π
 
 Finding this relation for π is an interesting application of the [[http://en.wikipedia.org/wiki/Integer_relation_algorithm][PSLQ
 algorithm]], an algorithm for finding integer relations between real numbers.
+
+* Motivation
+Calculating the $d$-th hexadecimal-digit of $\pi$ amounts to
+calculating the first digit of $16^{d-1}\pi$.

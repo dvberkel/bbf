@@ -1,5 +1,5 @@
 #+title: Bailey-Borwein-Plouff
 #+author: Daan van Berkel
 
-The Bailey-Borwein-Plouff algorithm is an algorithm to calculate a
+The [[http://en.wikipedia.org/wiki/Bailey%25E2%2580%2593Borwein%25E2%2580%2593Plouffe_formula][Bailey-Borwein-Plouff algorithm]] is an algorithm to calculate a
 single digits of π, without calculating any of the preceding digits.

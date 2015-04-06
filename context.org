@@ -16,3 +16,20 @@ algorithm]], an algorithm for finding integer relations between real numbers.
 * Motivation
 Calculating the $d$-th hexadecimal-digit of $\pi$ amounts to
 calculating the first digit of $16^{d-1}\pi$.
+
+Concentrating on of the summands, we need to evaluate
+
+\[
+16^{d-1} \sum_{k=0}^{\infty} \frac{1}{16^{k}}\frac{4}{8k+1}
+=
+4\sum_{k=0}^{d-1}\frac{16^{d-1 - k}}{8k+1} + 4\sum_{k=d}^{\infty}\frac{1}{16^{k-d}}\frac{1}{8k+1}
+\]
+
+Because we are only interested in the fractional part we can further
+simplify.
+
+\[
+\left\{\sum_{k=0}^{d-1}\frac{16^{d-1 - k}}{8k+1}\right\}
+=
+\sum_{k=0}^{d-1}\frac{16^{d-1 - k} \mod 8k+1}{8k+1}
+\]

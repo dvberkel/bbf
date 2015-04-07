@@ -33,3 +33,5 @@ simplify.
 =
 \sum_{k=0}^{d-1}\frac{16^{d-1 - k} \mod 8k+1}{8k+1}
 \]
+* Consideration
+We have the following considerations.

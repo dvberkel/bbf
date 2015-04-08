@@ -35,3 +35,7 @@ simplify.
 \]
 * Consideration
 We have the following considerations.
+
+** Fast Exponantiation
+We should really implement fast exponantiation in such a way that is
+can be used to to multiply different powers easily.
